@@ -16,7 +16,7 @@ class TestAddition(unittest.TestCase):
         self.assertEqual(result, -5)  # Assert that the result is equal to -5
 
     def test_mixed_numbers(self):
-        result = add(2, -3)
+        result = add(9, -3)
         self.assertEqual(result, -1)  # Assert that the result is equal to -1
 
 if __name__ == '__main__':
